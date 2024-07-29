@@ -50,7 +50,7 @@ function App() {
   return (
     <div>
       <Parallax
-        bgImage="../../public/bg-header2.jpg"
+        bgImage="/testing/bg-header2.jpg"
         strength={500}
         className="paralax-background"
       >
