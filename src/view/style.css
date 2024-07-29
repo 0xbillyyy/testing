@@ -1,0 +1,45 @@
+.hover-box:hover {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 28px 28px 35px -3px rgba(235, 235, 235, 1);
+    -webkit-box-shadow: 28px 28px 35px -3px rgba(235, 235, 235, 1);
+    -moz-box-shadow: 28px 28px 35px -3px rgba(235, 235, 235, 1);
+    transition: linear 0.1s;
+}
+
+.audio-width {
+    width: 100%;
+}
+
+.parallax-background {
+    position: relative;
+    z-index: -1;
+}
+
+.content-container {
+    position: relative;
+    z-index: 1;
+    margin-top: -300px;
+}
+
+.input-search {
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 10px 5px;
+    background: white no-repeat;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgb(235, 235, 235), rgb(235, 235, 235)), linear-gradient(to bottom, silver, silver);
+    background-size: 0 2px, 100% 1px;
+    background-position: 50% 100%, 50% 100%;
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    color: white;
+}
+
+.input-search:focus {
+    background-size: 100% 2px, 100% 1px;
+    outline: none;
+}
+
+.input-search::placeholder {
+    color: white;
+}
